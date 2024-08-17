@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['headset', 'keyboard', 'monitor', 'mouse']
+
+roboflow:
+  workspace: profession-elective-3
+  project: computer-pcvb4
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/profession-elective-3/computer-pcvb4/dataset/3
